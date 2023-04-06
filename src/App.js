@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <div className="header">
+      <div className="topnav">
         <NavLink exact activeClass = "active" to="/">Home</NavLink>
         <NavLink activeClassName = "active" to="/register">Register</NavLink>
         <NavLink activeClassName = "active" to="/login">Login</NavLink>

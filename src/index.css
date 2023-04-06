@@ -35,3 +35,27 @@ code {
 .link{
   font-size: 0.7em;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #3A5A40;
+}
+
+.topnav a {
+  float: left;
+  color: #DAD7CD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #A3B18A;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DAD7CD;
+  color: #3A5A40;
+}

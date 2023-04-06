@@ -43,16 +43,52 @@ const Register = () => {
     }
 
     return (
-        <div>
-            <form onSubmit={submitHandler}>
-                <h5>Register</h5>
-                Email: <input type="text" value={email} onChange={event => setEmail(event.target.value)} /> <br/>
-                Username: <input type="text" value={user_name} onChange={event => setUsername(event.target.value)} /> <br/>
-                Password: <input type="password" value={password} onChange={event => setPassword(event.target.value)} /> <br/>
+      // <div class="login-page">
+      // <div class="form">
+      //   <div class="login">
+      //     <div class="login-header">
+      //       <h3>LOGIN</h3>
+      //       <p>Please enter your credentials to login.</p>
+      //     </div>
+      //   </div>
+    //     <form class="login-form" onSubmit={submitHandler} >
+    //       <input type="text" placeholder="email" value={email} onChange={event => setEmail(event.target.value)} />
+    //       <input type="password" placeholder="password" value={password} onChange={event => setPassword(event.target.value)} />
+    //       <input type="submit" value="Login" />
+    //       <p className = "link"><Link to = "/register">Register instead?</Link></p>
+    //       {errorMessage && <p className="message">{errorMessage}</p>}
+    //     </form>
+    //   </div>
+    // </div>
+      //   <div>
+            // <form class="login-form" onSubmit={submitHandler}>
+            //     <h5>Register</h5>
+            //     Email: <input type="text" value={email} onChange={event => setEmail(event.target.value)} /> <br/>
+            //     Username: <input type="text" value={user_name} onChange={event => setUsername(event.target.value)} /> <br/>
+            //     Password: <input type="password" value={password} onChange={event => setPassword(event.target.value)} /> <br/>
+            //     <input type="submit" value="Register" />
+            // </form>
+            // {message && <p className="message">{message}</p>}
+      // </div>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>Registration</h3>
+            <p class= "content" >Please enter your credentials for Registration.</p>
+          </div>
+        </div>
+        <form class="login-form" onSubmit={submitHandler}>
+                <input type="text" placeholder="email" value={email} onChange={event => setEmail(event.target.value)} /> <br/>
+                <input type="text" placeholder="username" value={user_name} onChange={event => setUsername(event.target.value)} /> <br/>
+                <input type="password" placeholder="password" value={password} onChange={event => setPassword(event.target.value)} /> <br/>
                 <input type="submit" value="Register" />
             </form>
             {message && <p className="message">{message}</p>}
       </div>
+    </div>  
+ 
+    
     )
 } 
 
