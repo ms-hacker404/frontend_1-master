@@ -17,19 +17,27 @@
   table {
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   
   td,
   th {
     border: 1.5px solid #3A5A40;
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
   
   /* Set styles for table headers */
   th {
     background-color: #588157;
     color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #588157;
+    text-shadow: 1px 1px #3A5A40;
   }
   button {
     margin-top: 1rem;

@@ -166,7 +166,7 @@ function Subscription() {
         <div class="intro-text">
           <h1>
             <span class="hear">Hello {user_name}! You have been logged in successfully </span> <br />
-            <span class="connecting">  Welcome to your Subscriptions </span>
+            <span class="connecting">  Welcome to your subscriptions </span>
           </h1>
           <input type="button" class="btn red" value="Logout" onClick={logoutHandler} />
         </div>
