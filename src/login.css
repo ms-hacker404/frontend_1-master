@@ -50,7 +50,23 @@ margin-bottom: 26px;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
-  cursor: pointer;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #ace0dd;
+  background-image: linear-gradient(45deg,#cdecea,#c0ead2);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+.form button:hover {
+  color: #4CAF50;
 }
 .form .message {
   margin: 15px 0 0;
@@ -59,7 +75,7 @@ margin-bottom: 26px;
 }
 .content {
   color: #DAD7CD;
-  margin: 15px 0 0;
+  margin: 10px 0 0;
   font-size: 20px;
 }
 .form .message a {

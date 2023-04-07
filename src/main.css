@@ -7,8 +7,11 @@
   gap: 1.9rem;
   max-width: 1100px;
   margin: 2rem auto -6rem;
+  color: #588157;
 }
-
+tr{
+    color: #588157;
+}
 .intro-text h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
